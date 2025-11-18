@@ -1,0 +1,85 @@
+.body{
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.main-container{
+    display: flexbox;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    border: 3px solid silver;
+    gap: 10px;
+   justify-content: center;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menu li{
+list-style: none;
+}
+.menu a{
+    color: silver;
+}
+.menu a:hover {
+    color: blue;
+    transform: scale(1.50);
+}
+.name:hover {
+    color: skyblue;
+}
+.name{
+    color: silver;
+}
+.nav-pics:hover {
+    transform: scale(2.00);
+}
+.footer{
+    flex-wrap: wrap;
+    background-color: black;
+    color: silver;
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list:hover {
+    color: ghostwhite;
+}
+.rights:hover {
+    transform: scale(2.00);
+    color: red;
+}
+.hero{
+    background-color: whitesmoke;
+    padding: 100px;
+    text-align: center;
+    color: skyblue
+}
+.projects{
+    background-color: silver;
+    padding: 300px;
+    padding-top: 25px;
+    text-align: center;
+    display: flexbox;
+}
+.project-grid{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.project-1:hover {
+    color: chartreuse;
+    transform: scale(2.00);
+}
+.project-2:hover {
+    color: snow;
+    transform: scale(2.00);
+}
+.project-3:hover {
+    color: orangered;
+    transform: scale(2.00);
+}
